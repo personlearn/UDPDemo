@@ -1,0 +1,9 @@
+c:\users\yagamitaiichi\documents\visual studio 2015\Projects\UDPCheckoutTools\UDPCheckoutTools\bin\Debug\UDPCheckoutTools.exe.config
+c:\users\yagamitaiichi\documents\visual studio 2015\Projects\UDPCheckoutTools\UDPCheckoutTools\bin\Debug\UDPCheckoutTools.exe
+c:\users\yagamitaiichi\documents\visual studio 2015\Projects\UDPCheckoutTools\UDPCheckoutTools\bin\Debug\UDPCheckoutTools.pdb
+c:\users\yagamitaiichi\documents\visual studio 2015\Projects\UDPCheckoutTools\UDPCheckoutTools\obj\Debug\UDPCheckoutTools.csprojResolveAssemblyReference.cache
+c:\users\yagamitaiichi\documents\visual studio 2015\Projects\UDPCheckoutTools\UDPCheckoutTools\obj\Debug\UDPCheckoutTools.Form1.resources
+c:\users\yagamitaiichi\documents\visual studio 2015\Projects\UDPCheckoutTools\UDPCheckoutTools\obj\Debug\UDPCheckoutTools.Properties.Resources.resources
+c:\users\yagamitaiichi\documents\visual studio 2015\Projects\UDPCheckoutTools\UDPCheckoutTools\obj\Debug\UDPCheckoutTools.csproj.GenerateResource.Cache
+c:\users\yagamitaiichi\documents\visual studio 2015\Projects\UDPCheckoutTools\UDPCheckoutTools\obj\Debug\UDPCheckoutTools.exe
+c:\users\yagamitaiichi\documents\visual studio 2015\Projects\UDPCheckoutTools\UDPCheckoutTools\obj\Debug\UDPCheckoutTools.pdb
