@@ -19,7 +19,7 @@ namespace UDPMessage
             msg.Addr = addr;
             msg.Cmd = ProtocolCode.CHECKVERSION;
 
-            ipformat.sendMsg=Ordermsg(msg);
+            ipformat.sendMsg = Ordermsg(msg);
             return UDPSendto.updsendto(ipformat);
         }
         //查询状态
@@ -123,9 +123,10 @@ namespace UDPMessage
             int i = 0;
             dataBuffer[i++] = ProtocolCode.REQUESTHEAD;
             dataBuffer[i++] = (byte)msg.Addr;
-            dataBuffer[i++] = (byte)(msg.CmdPara.Length + 2);
+            int CmdParaLength = msg.CmdPara == null ? 2 : msg.CmdPara.Length + 2;
+            dataBuffer[i++] = (byte)CmdParaLength;
             dataBuffer[i++] = (byte)msg.Cmd;
-            for (int j = 0; j < msg.CmdPara.Length; j++)
+            for (int j = 0; j < CmdParaLength; j++)
             {
                 dataBuffer[i++] = msg.CmdPara[j];
             }

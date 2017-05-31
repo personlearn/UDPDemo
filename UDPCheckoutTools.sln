@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPCheckoutTools", "UDPChec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPMessage", "UDPMessage\UDPMessage.csproj", "{C0455FA3-7B64-417F-B2B3-7F0DF04D9FAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPDemo", "UDPDemo\UDPDemo.csproj", "{5927D220-F509-4FA1-9186-93F9A39C816A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C0455FA3-7B64-417F-B2B3-7F0DF04D9FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0455FA3-7B64-417F-B2B3-7F0DF04D9FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0455FA3-7B64-417F-B2B3-7F0DF04D9FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5927D220-F509-4FA1-9186-93F9A39C816A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5927D220-F509-4FA1-9186-93F9A39C816A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5927D220-F509-4FA1-9186-93F9A39C816A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5927D220-F509-4FA1-9186-93F9A39C816A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

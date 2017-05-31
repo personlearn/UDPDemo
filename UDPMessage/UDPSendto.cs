@@ -34,10 +34,17 @@ namespace UDPMessage
                 byte addr = addrlist[i];
                 Run(addr);
                 Thread t1 = new Thread(new ParameterizedThreadStart(POLLGetCardData));
+                t1.IsBackground = true;
                 t1.Start(addr);
                 Thread t2 = new Thread(new ParameterizedThreadStart(POLLSetTime));
+                t2.IsBackground = true;
                 t2.Start(addr);
             }
+        }
+
+        public static void Close(bool IsGetCardData1)
+        {
+            IsGetCardData = IsGetCardData1;
         }
 
         public static void Run(byte addr)
@@ -106,10 +113,16 @@ namespace UDPMessage
                 newsock.Bind(ip);
                 EndPoint Remote = new IPEndPoint(IPAddress.Parse(ipformat.destIp), ipformat.destPort);
                 data = ipformat.sendMsg;
+
+                LogClass.WriteLogFile("发送报文："+BitConverter.ToString(data, 0, 8));
+
                 newsock.SendTo(data, data.Length, SocketFlags.None, Remote);
 
                 data = new byte[1024];
                 recv = newsock.ReceiveFrom(data, ref Remote);
+
+                LogClass.WriteLogFile("接收报文：" + BitConverter.ToString(data, 0, 8));
+
                 return data;
                 //return BitConverter.ToString(data, 0, recv);
             }

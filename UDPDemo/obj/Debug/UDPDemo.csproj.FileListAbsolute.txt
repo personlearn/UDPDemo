@@ -1,0 +1,11 @@
+E:\UDPDemo\UDPDemo\bin\Debug\UDPDemo.exe.config
+E:\UDPDemo\UDPDemo\bin\Debug\UDPDemo.exe
+E:\UDPDemo\UDPDemo\bin\Debug\UDPDemo.pdb
+E:\UDPDemo\UDPDemo\bin\Debug\UDPMessage.dll
+E:\UDPDemo\UDPDemo\bin\Debug\UDPMessage.pdb
+E:\UDPDemo\UDPDemo\obj\Debug\UDPDemo.csprojResolveAssemblyReference.cache
+E:\UDPDemo\UDPDemo\obj\Debug\UDPDemo.Form1.resources
+E:\UDPDemo\UDPDemo\obj\Debug\UDPDemo.Properties.Resources.resources
+E:\UDPDemo\UDPDemo\obj\Debug\UDPDemo.csproj.GenerateResource.Cache
+E:\UDPDemo\UDPDemo\obj\Debug\UDPDemo.exe
+E:\UDPDemo\UDPDemo\obj\Debug\UDPDemo.pdb

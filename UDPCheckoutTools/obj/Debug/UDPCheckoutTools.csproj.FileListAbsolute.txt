@@ -7,3 +7,6 @@ c:\users\yagamitaiichi\documents\visual studio 2015\Projects\UDPCheckoutTools\UD
 c:\users\yagamitaiichi\documents\visual studio 2015\Projects\UDPCheckoutTools\UDPCheckoutTools\obj\Debug\UDPCheckoutTools.csproj.GenerateResource.Cache
 c:\users\yagamitaiichi\documents\visual studio 2015\Projects\UDPCheckoutTools\UDPCheckoutTools\obj\Debug\UDPCheckoutTools.exe
 c:\users\yagamitaiichi\documents\visual studio 2015\Projects\UDPCheckoutTools\UDPCheckoutTools\obj\Debug\UDPCheckoutTools.pdb
+E:\UDPDemo\UDPCheckoutTools\bin\Debug\UDPCheckoutTools.exe.config
+E:\UDPDemo\UDPCheckoutTools\obj\Debug\UDPCheckoutTools.exe
+E:\UDPDemo\UDPCheckoutTools\obj\Debug\UDPCheckoutTools.pdb

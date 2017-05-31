@@ -1,0 +1,5 @@
+E:\UDPDemo\UDPMessage\bin\Debug\UDPMessage.dll
+E:\UDPDemo\UDPMessage\bin\Debug\UDPMessage.pdb
+E:\UDPDemo\UDPMessage\obj\Debug\UDPMessage.csprojResolveAssemblyReference.cache
+E:\UDPDemo\UDPMessage\obj\Debug\UDPMessage.dll
+E:\UDPDemo\UDPMessage\obj\Debug\UDPMessage.pdb
